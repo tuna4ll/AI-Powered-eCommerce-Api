@@ -1,24 +1,24 @@
 # AI-Powered-eCommerce-Api
 A modern and scalable e-commerce REST API with AI-powered product recommendations.
 
-## E-ticaret Sistemi:
+## E-commerce System:
 
-- GET /products: Tüm ürünleri listeleyen API.
-- POST /products: Adminlerin ürün ekleyebileceği API.
-- GET /cart: Kullanıcının sepetini görüntülemesi.
-- POST /cart: Kullanıcıların sepete ürün eklemeleri.
-- POST /orders: Sipariş oluşturma API'si.
-- GET /orders: Kullanıcıların siparişlerini görüntülemeleri.
+- GET /products: API that lists all products.
+- POST /products: API where admins can add products.
+- GET /cart: Users view their cart.
+- POST /cart: Users add products to their cart.
+- POST /orders: API for creating orders.
+- GET /orders: Users view their orders.
 
-## AI-powered Öneri Sistemi:
+## AI-powered Recommendation System:
 
-Kullanıcıların önceki alışverişlerine göre ürün önerileri yapılır.
-Bu öneri, sadece basit kategorilerle (örneğin, "electronics") yapılmış, ancak burayı gerçek makine öğrenmesi algoritmaları ile entegre edebilirsin.
+Product recommendations are made based on users' previous purchases.
+This recommendation is made only with simple categories (e.g. "electronics"), but you can integrate it with real machine learning algorithms.
 
 ## JWT Authentication:
 
-API’ye erişimi kullanıcı doğrulamasıyla sağlıyoruz. Token tabanlı kimlik doğrulama yapılıyor.
+We provide access to the API with user authentication. Token-based authentication is done.
 
-## Makine Öğrenmesi Entegrasyonu:
+## Machine Learning Integration:
 
-Öneri sistemi için basit bir placeholder ekledik, ancak buraya gerçek bir model ekleyebilir ve kullanıcı alışveriş geçmişine göre öneri yapabilirsin (TensorFlow.js veya başka bir ML kütüphanesi ile).
+We added a simple placeholder for the recommendation system, but you can add a real model here and make recommendations based on user purchase history (with TensorFlow.js or any other ML library).
