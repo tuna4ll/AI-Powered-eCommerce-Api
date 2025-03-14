@@ -1,4 +1,4 @@
 {
-  mongo: "",
-  secretKey "yourSecretKey"
+  "mongo": "",
+  "secretKey": "yourSecretKey"
 }
