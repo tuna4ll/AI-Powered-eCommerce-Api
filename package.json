@@ -1,0 +1,45 @@
+{
+  "name": "4l-ecommerce-api",
+  "version": "1.0.0",
+  "description": "A modern and scalable e-commerce REST API with AI-powered product recommendations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"No test specified yet\" && exit 0"
+  },
+  "keywords": [
+    "ecommerce",
+    "api",
+    "express",
+    "mongodb",
+    "jwt",
+    "ai",
+    "rest",
+    "nodejs",
+    "recommendation"
+  ],
+  "author": "Tuna4l",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "morgan": "^1.10.0",
+    "openai": "^4.30.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
